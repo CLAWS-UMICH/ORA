@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: 2b71a9985e9a8d24196f7c2e803eb329
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 47844
@@ -14,3 +8,8 @@ AssetOrigin:
   assetPath: Assets/Animated Loading Icons/Prefabs/Circle half rotating fading/Circle
     half rotating fading 6.prefab
   uploadId: 88439
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

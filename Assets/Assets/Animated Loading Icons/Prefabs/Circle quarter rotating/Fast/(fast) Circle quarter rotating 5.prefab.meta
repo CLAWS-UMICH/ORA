@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: e79d20f19253222449dc5e3425730004
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 47844
@@ -14,3 +8,8 @@ AssetOrigin:
   assetPath: Assets/Animated Loading Icons/Prefabs/Circle quarter rotating/Fast/(fast)
     Circle quarter rotating 5.prefab
   uploadId: 88439
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

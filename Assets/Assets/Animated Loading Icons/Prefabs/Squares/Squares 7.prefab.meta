@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: 53c3aa73f24cacf41952f0f4da60a306
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 47844
@@ -13,3 +7,8 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/Animated Loading Icons/Prefabs/Squares/Squares 7.prefab
   uploadId: 88439
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

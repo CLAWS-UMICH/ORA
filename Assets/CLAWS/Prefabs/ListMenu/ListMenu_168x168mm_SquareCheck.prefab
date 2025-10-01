@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7927516803987453511}
     m_Modifications:
     - target: {fileID: 4310492076816344796, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
@@ -60,12 +61,21 @@ PrefabInstance:
       value: TogglePressableButton_160x32mm_SquareCheck_L (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+--- !u!4 &5511019691187166549 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8686472260681893518, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+  m_PrefabInstance: {fileID: 3816694351180749787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3890150096148776469
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7927516803987453511}
     m_Modifications:
     - target: {fileID: 4310492076816344796, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
@@ -121,12 +131,21 @@ PrefabInstance:
       value: TogglePressableButton_160x32mm_SquareCheck_L
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+--- !u!4 &5579989183866126491 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8686472260681893518, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+  m_PrefabInstance: {fileID: 3890150096148776469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4230790420221080724
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7927516803987453511}
     m_Modifications:
     - target: {fileID: 4310492076816344796, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
@@ -182,12 +201,21 @@ PrefabInstance:
       value: TogglePressableButton_160x32mm_SquareCheck_L (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+--- !u!4 &4772202652549100058 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8686472260681893518, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+  m_PrefabInstance: {fileID: 4230790420221080724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4239349890608744496
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 439186309502415271, guid: 6567dce352f0d514498586fe24081f1c, type: 3}
@@ -255,6 +283,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6111667044297473655, guid: 6567dce352f0d514498586fe24081f1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5579989183866126491}
+    - targetCorrespondingSourceObject: {fileID: 6111667044297473655, guid: 6567dce352f0d514498586fe24081f1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5511019691187166549}
+    - targetCorrespondingSourceObject: {fileID: 6111667044297473655, guid: 6567dce352f0d514498586fe24081f1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4772202652549100058}
+    - targetCorrespondingSourceObject: {fileID: 6111667044297473655, guid: 6567dce352f0d514498586fe24081f1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3530228032149463520}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6567dce352f0d514498586fe24081f1c, type: 3}
 --- !u!4 &7927516803987453511 stripped
 Transform:
@@ -266,6 +309,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 7927516803987453511}
     m_Modifications:
     - target: {fileID: 4310492076816344796, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
@@ -321,4 +365,12 @@ PrefabInstance:
       value: TogglePressableButton_160x32mm_SquareCheck_L (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+--- !u!4 &3530228032149463520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8686472260681893518, guid: a508d1f64cf0cc5448908128ae1fcf82, type: 3}
+  m_PrefabInstance: {fileID: 5220076379850123118}
+  m_PrefabAsset: {fileID: 0}

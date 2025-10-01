@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: 4b7e616895e874641ba70a59efe7245e
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 47844
@@ -14,3 +8,8 @@ AssetOrigin:
   assetPath: Assets/Animated Loading Icons/Prefabs/Circle rotating/Circle rotating
     1.prefab
   uploadId: 88439
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

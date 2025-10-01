@@ -1,11 +1,5 @@
 fileFormatVersion: 2
 guid: d6acbcaaf0d98e34e8d95dc9e8ec0b5a
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
   productId: 47844
@@ -13,3 +7,8 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/Animated Loading Icons/Prefabs/Spinner/Spinner 10.prefab
   uploadId: 88439
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
