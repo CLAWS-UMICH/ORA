@@ -6,6 +6,8 @@ ORA is a mini-project built off last year’s project AURA designed to give the 
 
 ## WEEK 1: Main Menu
 
+Dylan Li, Evan Wang, Yatin Bichala
+
 **OBJECTIVE:** Create a button menu to toggle between two screens
 
 - **Base Task:** Create a button menu to toggle between two screens  
