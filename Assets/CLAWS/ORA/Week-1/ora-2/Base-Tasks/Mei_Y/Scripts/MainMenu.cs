@@ -4,18 +4,26 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject screen1;
     [SerializeField] private GameObject screen2;
+    [SerializeField] private GameObject screen3;
 
     void Start()
     {
-        screen1.SetActive(true);
+        if (screen2 != null) screen2.SetActive(false);
+        if (screen3 != null) screen3.SetActive(false);
     }
     public void StartScreen1()
     {
-        screen1.SetActive(true);
+        SetPair(screen2On: true, screen3On: false);
     }
     public void StartScreen2()
     {
-        screen2.SetActive(true);
+        SetPair(screen2On: false, screen3On: true);
+    }
+
+    private void SetPair(bool screen2On, bool screen3On)
+    {
+        if (screen2 != null) screen2.SetActive(screen2On);
+        if (screen3 != null) screen3.SetActive(screen3On);
     }
 }
 
