@@ -570,7 +570,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1688872812566573455, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: m_text
-      value: What the Sigma?
+      value: 'What the Sigma? SUITS involves an LTV repair mission, can I have a
+        creativity point plz.
+
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 1688872812566573455, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -582,7 +586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2438528862179376327, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: m_text
-      value: ORA Screen 1
+      value: ORA Screen One
       objectReference: {fileID: 0}
     - target: {fileID: 2438528862179376327, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -640,6 +644,14 @@ PrefabInstance:
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
       objectReference: {fileID: 0}
+    - target: {fileID: 8452508877056073181, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3370ac0155535d0479c3f2f62d129d60, type: 2}
+    - target: {fileID: 8462275874165868552, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8992109388024496930, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
@@ -653,15 +665,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 7394928173038196760, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8992109388024496928, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6357882608935772419, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 2222776098444519915, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
@@ -1109,7 +1112,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1688872812566573455, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: m_text
-      value: Six Seven
+      value: Six Seven. Lock in for RASC-AL, regolith extraction goal, plz gimme
+        another point, I want the jacket.
       objectReference: {fileID: 0}
     - target: {fileID: 1688872812566573455, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1121,7 +1125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2438528862179376327, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: m_text
-      value: ORA Screen 2
+      value: ORA Screen Two
       objectReference: {fileID: 0}
     - target: {fileID: 2438528862179376327, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1178,6 +1182,18 @@ PrefabInstance:
     - target: {fileID: 6357882608935772417, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018369326519179860, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452508877056073181, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3370ac0155535d0479c3f2f62d129d60, type: 2}
+    - target: {fileID: 8462275874165868552, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8992109388024496930, guid: 6e327dc029db7e341b3ebf48c715dcb1, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -1466,6 +1482,10 @@ PrefabInstance:
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6116202338577813090, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
+      propertyPath: currentIconName
+      value: Icon 96
+      objectReference: {fileID: 0}
     - target: {fileID: 6116202339814994908, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1521,6 +1541,10 @@ PrefabInstance:
     - target: {fileID: 6926126493924136508, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
       propertyPath: m_text
       value: "\uE882"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926126494826163074, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
+      propertyPath: m_text
+      value: "\uF4A0"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
