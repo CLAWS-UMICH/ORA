@@ -10,5 +10,7 @@ public class Astronaut
     public FellowAstronaut fellowAstronaut;
     public Location origin;
     public Location current;
+    public string TSSurl;
+    public Telemetry telemetry;
 
 }
