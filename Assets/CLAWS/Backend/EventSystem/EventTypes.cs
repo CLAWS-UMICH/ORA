@@ -16,5 +16,7 @@ public class Event
 }
 
 // Add event types here as needed...
-
+// TODO:
+// - Add a vitals update event type for EV1
+// - Add a vitals update event type for EV2
 
