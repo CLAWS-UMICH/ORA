@@ -8,8 +8,8 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        if (screen2 != null) screen2.SetActive(false);
-        if (screen3 != null) screen3.SetActive(false);
+        // if (screen2 != null) screen2.SetActive(false);
+        // if (screen3 != null) screen3.SetActive(false);
     }
     public void StartScreen1()
     {
