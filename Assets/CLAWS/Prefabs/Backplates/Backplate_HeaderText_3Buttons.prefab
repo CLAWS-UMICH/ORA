@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: m_TextStyleHashCode
       value: -1183493901
       objectReference: {fileID: 0}
+    - target: {fileID: 927697048251247382, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 1388068182124652819, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0.135
@@ -52,9 +56,21 @@ PrefabInstance:
       propertyPath: m_TextStyleHashCode
       value: -1183493901
       objectReference: {fileID: 0}
+    - target: {fileID: 2895261335859644725, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 3362904824762012777, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.010599999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552907818490125721, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: neutralButton.Label
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552907818490125721, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: neutralButton.Interactable
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3814187079039073327, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_Enabled
@@ -76,6 +92,10 @@ PrefabInstance:
       propertyPath: m_TextStyleHashCode
       value: -1183493901
       objectReference: {fileID: 0}
+    - target: {fileID: 4869657693900110744, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5349300082099270895, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.034
@@ -83,6 +103,10 @@ PrefabInstance:
     - target: {fileID: 5349300083105080318, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349300083105080318, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6512357783076582462, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -95,6 +119,10 @@ PrefabInstance:
     - target: {fileID: 7995772931957462191, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445109206617208528, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8529335236329353063, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
       propertyPath: m_Name
@@ -109,7 +137,8 @@ PrefabInstance:
       value: -0.034
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5349300082652393998, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b18a8137ff3b1c441948d57f752d44a7, type: 3}
