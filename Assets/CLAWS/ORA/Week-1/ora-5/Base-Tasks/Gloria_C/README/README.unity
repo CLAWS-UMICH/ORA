@@ -429,6 +429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Backplate_SpaceText_3Buttons
       objectReference: {fileID: 0}
+    - target: {fileID: 8529335236329353063, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2419664531546587679, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
@@ -436,13 +440,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5080262994328456691, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
       insertIndex: 2
       addedObject: {fileID: 1103689024}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3855691198343532611, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 3622131044746646031, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
 --- !u!4 &451804382 stripped
 Transform:
@@ -1403,6 +1401,8 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 2878415277857218561, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
     - {fileID: 3129372834851233973, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
+    - {fileID: 4506052633123223410, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
+    - {fileID: 4628306912398695377, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2878415277307317325, guid: 4f12c697f38a47e49b9c8ea5b8bea462, type: 3}
