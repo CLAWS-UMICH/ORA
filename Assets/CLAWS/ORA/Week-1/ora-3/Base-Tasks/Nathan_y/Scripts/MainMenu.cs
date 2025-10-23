@@ -17,9 +17,9 @@ public class MainMenu : MonoBehaviour
         // Example: animate the arc opening
         float arcLength = Mathf.PingPong(Time.time * 60f, 360f);
 
-        targetRenderer.material.SetFloat("_Angle", 90f);   // center of the arc
-        targetRenderer.material.SetFloat("_Arc1", arcLength / 2f); // left side extent
-        targetRenderer.material.SetFloat("_Arc2", arcLength / 2f); // right side extent
+        targetRenderer.material.SetFloat("_Angle", 320f);   // center of the arc
+        // targetRenderer.material.SetFloat("_Arc1", arcLength / 2f); // left side extent
+        targetRenderer.material.SetFloat("_Arc2", arcLength); // right side extent
     }
 
     public void turnOnScreen1()
