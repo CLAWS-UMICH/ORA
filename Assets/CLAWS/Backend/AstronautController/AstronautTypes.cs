@@ -17,12 +17,12 @@ public class Location /// UNITY LOCATION ///
         this.posZ = posz;
         this.Heading = heading;
     }
-    
-        public override int GetHashCode()
-        {
-            return (posX, posY, posZ, Heading).GetHashCode();
-        }
-    
+
+    public override int GetHashCode()
+    {
+        return (posX, posY, posZ, Heading).GetHashCode();
+    }
+
 
     public override bool Equals(object obj)
     {
@@ -37,4 +37,47 @@ public class Location /// UNITY LOCATION ///
                posZ == otherLoc.posZ &&
                Heading == otherLoc.Heading;
     }
+
+}
+
+
+[System.Serializable]
+public class Telemetry
+{
+    public TelemetryDetails telemetry;
+}
+
+[System.Serializable]
+public class TelemetryDetails
+{
+    public int eva_time;
+    public VitalsDetails eva1;
+    public VitalsDetails eva2;
+}
+
+[System.Serializable]
+public class VitalsDetails
+{
+    public double batt_time_left; // ORA
+    public double oxy_pri_storage; // ORA
+    public double oxy_sec_storage; // ORA
+    public double oxy_pri_pressure;
+    public double oxy_sec_pressure;
+    public int oxy_time_left; // ORA
+    public double heart_rate; // ORA
+    public double oxy_consumption; 
+    public double co2_production;
+    public double suit_pressure_oxy;
+    public double suit_pressure_co2;
+    public double suit_pressure_other;
+    public double suit_pressure_total;
+    public double fan_pri_rpm;
+    public double fan_sec_rpm;
+    public double helmet_pressure_co2;
+    public double scrubber_a_co2_storage;
+    public double scrubber_b_co2_storage;
+    public double temperature; // ORA
+    public double coolant_m;
+    public double coolant_gas_pressure;
+    public double coolant_liquid_pressure;
 }
