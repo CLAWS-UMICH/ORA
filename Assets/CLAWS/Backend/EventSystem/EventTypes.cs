@@ -19,4 +19,12 @@ public class Event
 // TODO:
 // - Add a vitals update event type for EV1
 // - Add a vitals update event type for EV2
+public class VitalsUpdateEvent
+{
+    public string text { get; private set; }
 
+    public VitalsUpdateEvent(string txt)
+    {
+        text = txt;
+    }
+}
