@@ -81,7 +81,7 @@ public class ConnectToTSS : MonoBehaviour
 
     IEnumerator GetTELEMETRYState()
     {
-        // Debug.Log(AstronautInstance.User.TSSurl + "/json_data/teams/" + this.team_number + "/TELEMETRY.json");
+        Debug.Log(AstronautInstance.User.TSSurl + "/json_data/teams/" + this.team_number + "/TELEMETRY.json");
         using (UnityWebRequest webRequest = UnityWebRequest.Get(AstronautInstance.User.TSSurl + "/json_data/teams/" + this.team_number + "/TELEMETRY.json"))
         {
 
@@ -97,11 +97,11 @@ public class ConnectToTSS : MonoBehaviour
                         Debug.Log("Telemetry" + TELEMETRYJsonString);
                         if (AstronautInstance.User.id == 1)
                         {
-                             EventBus.Publish<??>(new ??(AstronautInstance.User.telemetry.telemetry.eva1));
+                             EventBus.Publish<EV1VitalsUpdateEvent>(new EV1VitalsUpdateEvent(AstronautInstance.User.telemetry.telemetry.eva1));
                         }
                         else
                         {
-                            EventBus.Publish<??>(new ??(AstronautInstance.User.telemetry.telemetry.eva2));
+                            EventBus.Publish<EV2VitalsUpdateEvent>(new EV2VitalsUpdateEvent(AstronautInstance.User.telemetry.telemetry.eva2));
                         }
                     }
                     break;

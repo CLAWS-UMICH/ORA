@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 98206357}
   - component: {fileID: 98206358}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1876,7 +1876,7 @@ GameObject:
   - component: {fileID: 243666091}
   - component: {fileID: 243666092}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3040,6 +3040,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &367725134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7429095020531837142, guid: 24bb668a0c4747e4dac1d88cd9ec5cf5, type: 3}
+  m_PrefabInstance: {fileID: 280233120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &370668651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3120,7 +3125,7 @@ GameObject:
   - component: {fileID: 374829956}
   - component: {fileID: 374829957}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3747,7 +3752,7 @@ GameObject:
   - component: {fileID: 508747991}
   - component: {fileID: 508747992}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4478,10 +4483,10 @@ Transform:
   m_Children:
   - {fileID: 576633890}
   - {fileID: 934212548}
-  - {fileID: 1025439734}
-  - {fileID: 1358565549}
   - {fileID: 615288609}
+  - {fileID: 1025439734}
   - {fileID: 605068138}
+  - {fileID: 1358565549}
   - {fileID: 1377418774}
   m_Father: {fileID: 667101771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5618,7 +5623,7 @@ GameObject:
   - component: {fileID: 737539913}
   - component: {fileID: 737539914}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5747,7 +5752,7 @@ GameObject:
   - component: {fileID: 785236187}
   - component: {fileID: 785236188}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6268,7 +6273,7 @@ GameObject:
   - component: {fileID: 834079224}
   - component: {fileID: 834079225}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6358,7 +6363,7 @@ GameObject:
   - component: {fileID: 834691796}
   - component: {fileID: 834691797}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6448,7 +6453,7 @@ GameObject:
   - component: {fileID: 837747566}
   - component: {fileID: 837747567}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6538,7 +6543,7 @@ GameObject:
   - component: {fileID: 852935681}
   - component: {fileID: 852935682}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7203,7 +7208,7 @@ GameObject:
   - component: {fileID: 945231671}
   - component: {fileID: 945231672}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7298,7 +7303,7 @@ GameObject:
   - component: {fileID: 951296133}
   - component: {fileID: 951296134}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8215,7 +8220,7 @@ GameObject:
   - component: {fileID: 998315806}
   - component: {fileID: 998315807}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8431,7 +8436,7 @@ GameObject:
   - component: {fileID: 1041614565}
   - component: {fileID: 1041614566}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8883,7 +8888,7 @@ GameObject:
   - component: {fileID: 1062315455}
   - component: {fileID: 1062315456}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9333,6 +9338,8 @@ GameObject:
   - component: {fileID: 1088470311}
   - component: {fileID: 1088470314}
   - component: {fileID: 1088470315}
+  - component: {fileID: 1088470317}
+  - component: {fileID: 1088470316}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -9377,6 +9384,56 @@ MonoBehaviour:
       id: 0
       name: 
       color: 
+    TSSurl: http://127.0.0.1:14141
+    telemetry:
+      telemetry:
+        eva_time: 0
+        eva1:
+          batt_time_left: 0
+          oxy_pri_storage: 0
+          oxy_sec_storage: 0
+          oxy_pri_pressure: 0
+          oxy_sec_pressure: 0
+          oxy_time_left: 0
+          heart_rate: 0
+          oxy_consumption: 0
+          co2_production: 0
+          suit_pressure_oxy: 0
+          suit_pressure_co2: 0
+          suit_pressure_other: 0
+          suit_pressure_total: 0
+          fan_pri_rpm: 0
+          fan_sec_rpm: 0
+          helmet_pressure_co2: 0
+          scrubber_a_co2_storage: 0
+          scrubber_b_co2_storage: 0
+          temperature: 0
+          coolant_m: 0
+          coolant_gas_pressure: 0
+          coolant_liquid_pressure: 0
+        eva2:
+          batt_time_left: 0
+          oxy_pri_storage: 0
+          oxy_sec_storage: 0
+          oxy_pri_pressure: 0
+          oxy_sec_pressure: 0
+          oxy_time_left: 0
+          heart_rate: 0
+          oxy_consumption: 0
+          co2_production: 0
+          suit_pressure_oxy: 0
+          suit_pressure_co2: 0
+          suit_pressure_other: 0
+          suit_pressure_total: 0
+          fan_pri_rpm: 0
+          fan_sec_rpm: 0
+          helmet_pressure_co2: 0
+          scrubber_a_co2_storage: 0
+          scrubber_b_co2_storage: 0
+          temperature: 0
+          coolant_m: 0
+          coolant_gas_pressure: 0
+          coolant_liquid_pressure: 0
 --- !u!114 &1088470315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9391,6 +9448,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   screen1: {fileID: 1829571320}
   screen2: {fileID: 667101770}
+--- !u!114 &1088470316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088470310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5150a97a3160124a81bc39d09b63277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ConnectToTSS
+--- !u!114 &1088470317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088470310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd8e72b28dd57c44abac24407f43326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VitalsUpdate
+  eva1Screen: {fileID: 1829571320}
+  eva2Screen: {fileID: 667101770}
+  eva1_heartRateText: {fileID: 979556863}
+  eva1_oxygenTimeLeftText: {fileID: 643828296}
+  eva1_oxySlider: {fileID: 1154261147}
+  eva1_suitTempText: {fileID: 0}
+  eva1_batteryTimeLeftText: {fileID: 166890009}
+  eva1_batterySlider: {fileID: 367725134}
+  eva1_oxyPrimaryText: {fileID: 0}
+  eva1_oxySecondaryText: {fileID: 0}
+  eva1_suitPressureTotalText: {fileID: 1189933006}
+  eva1_helmetPressureCO2Text: {fileID: 4387124}
+  eva1_suitPressureO2Text: {fileID: 924318580}
+  eva1_suitPressureCO2Text: {fileID: 1868995109}
+  eva1_suitPressureOtherText: {fileID: 893545883}
+  eva2_heartRateText: {fileID: 1397881608}
+  eva2_oxygenTimeLeftText: {fileID: 0}
+  eva2_suitTempText: {fileID: 0}
+  eva2_batteryTimeLeftText: {fileID: 0}
+  eva2_oxyPrimaryText: {fileID: 0}
+  eva2_oxySecondaryText: {fileID: 0}
+  eva2_oxySlider: {fileID: 0}
+  eva2_suitPressureTotalText: {fileID: 1171867114}
+  eva2_helmetPressureCO2Text: {fileID: 217569230}
+  eva2_suitPressureO2Text: {fileID: 975249758}
+  eva2_suitPressureCO2Text: {fileID: 457179982}
+  eva2_suitPressureOtherText: {fileID: 1556411916}
 --- !u!1 &1101996844
 GameObject:
   m_ObjectHideFlags: 0
@@ -9992,6 +10100,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44f65699decaa45dc8f6b8cab9f41359, type: 3}
+--- !u!1 &1154261147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7429095020531837142, guid: 24bb668a0c4747e4dac1d88cd9ec5cf5, type: 3}
+  m_PrefabInstance: {fileID: 1639837616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1162199610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10344,7 +10457,7 @@ GameObject:
   - component: {fileID: 1175200847}
   - component: {fileID: 1175200848}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11688,10 +11801,10 @@ Transform:
   m_Children:
   - {fileID: 2094525391}
   - {fileID: 1727118494}
-  - {fileID: 965010373}
-  - {fileID: 600967426}
   - {fileID: 629819456}
+  - {fileID: 965010373}
   - {fileID: 1667211782}
+  - {fileID: 600967426}
   - {fileID: 651808798}
   m_Father: {fileID: 1829571321}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12399,7 +12512,7 @@ GameObject:
   - component: {fileID: 1428260594}
   - component: {fileID: 1428260595}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13030,7 +13143,7 @@ GameObject:
   - component: {fileID: 1578782721}
   - component: {fileID: 1578782722}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13120,7 +13233,7 @@ GameObject:
   - component: {fileID: 1578992423}
   - component: {fileID: 1578992424}
   m_Layer: 0
-  m_Name: Dial_Back
+  m_Name: RingEmpty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16043,7 +16156,7 @@ GameObject:
   - component: {fileID: 2014630825}
   - component: {fileID: 2014630826}
   m_Layer: 0
-  m_Name: Dial_Front
+  m_Name: RingFull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

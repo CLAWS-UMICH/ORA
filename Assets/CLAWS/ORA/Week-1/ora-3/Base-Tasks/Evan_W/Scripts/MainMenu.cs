@@ -12,18 +12,24 @@ public class MainMenu : MonoBehaviour
     {
         screen1.SetActive(true);
         screen2.SetActive(false);
+        AstronautInstance.User.id = 1;
+        AstronautInstance.User.fellowAstronaut.id = 2;
     }
 
     public void EnableScreenOne()
     {
         screen1.SetActive(true);
         screen2.SetActive(false);
+        AstronautInstance.User.id = 1;
+        AstronautInstance.User.fellowAstronaut.id = 2;
     }
 
     public void EnableScreenTwo()
     {
         screen2.SetActive(true);
         screen1.SetActive(false);
+        AstronautInstance.User.id = 2;
+        AstronautInstance.User.fellowAstronaut.id = 1;
     }
 
 }
