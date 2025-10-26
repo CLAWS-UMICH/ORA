@@ -461,7 +461,20 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5080262994328456691, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
       insertIndex: 2
       addedObject: {fileID: 1103689024}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3855691198343532611, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3622131044746646031, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3855691198343532611, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3622131044746646031, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 60c8fab54d65f6a438626633f69d6f40, type: 3}
 --- !u!4 &451804382 stripped
 Transform:
