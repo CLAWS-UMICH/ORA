@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MRTK_Backplate_13mm_Gradient Variant 1
+  m_Name: MRTK_Backplate_13mm_Gradient Variant 2
   m_Shader: {fileID: 4800000, guid: bf1548464ae044849a0ce555785ea4a2, type: 3}
   m_Parent: {fileID: 2100000, guid: f32fb793f8a4656469db1040ccf2cffb, type: 2}
   m_ModifiedSerializedProperties: 0
@@ -36,9 +36,9 @@ Material:
     - _Iridescence_Enable_: 1
     - _Iridescence_Intensity_: 0.05
     - _Line_Width_: 0.001
-    - _Radius_: 0.008
+    - _Radius_: 0.005
     m_Colors:
-    - _Base_Color_: {r: 0.13725491, g: 0.19607843, b: 0.49803922, a: 1}
+    - _Base_Color_: {r: 0.16078432, g: 0.23529412, b: 0.49803913, a: 1}
     - _Line_Color_: {r: 0.19215687, g: 0.27450982, b: 0.56078434, a: 0.34901962}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
