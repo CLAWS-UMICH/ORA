@@ -58,7 +58,7 @@ public class TelemetryDetails
 [System.Serializable]
 public class VitalsDetails
 {
-    public double batt_time_left; // ORA
+    public int batt_time_left; // ORA
     public double oxy_pri_storage; // ORA
     public double oxy_sec_storage; // ORA
     public double oxy_pri_pressure;

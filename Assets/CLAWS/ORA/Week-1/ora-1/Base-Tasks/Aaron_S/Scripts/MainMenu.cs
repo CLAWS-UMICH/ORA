@@ -15,6 +15,9 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
+        AstronautInstance.User = new Astronaut();
+        AstronautInstance.User.TSSurl = "http://127.0.0.1:14141/";  // Your server IP
+        AstronautInstance.User.id = 1;  // EVA1 or EVA2
         screen1.SetActive(true);
         screen2.SetActive(false);
         vitals.SetActive(false);

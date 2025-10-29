@@ -1,10 +1,11 @@
 using MixedReality.Toolkit.UX;
 using UnityEngine;
+using TMPro;
 
 public class VitalsUpdate : MonoBehaviour
 {
-    private Subscription<??> vitalsUpdateEvent;
-    private Subscription<??> fellowVitalsUpdateEvent;
+    private Subscription<VitalsUpdateEvent> vitalsUpdateEvent;
+    private Subscription<VitalsUpdateEvent> fellowVitalsUpdateEvent;
 
     [SerializeField] private GameObject eva1Screen; // Handle UI for EV1
     [SerializeField] private GameObject eva2Screen; // Handle UI for fellow astronaut
@@ -37,34 +38,39 @@ public class VitalsUpdate : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        vitalsUpdateEvent = EventBus.Subscribe <??> (vitalsEventHandler);
-        fellowVitalsUpdateEvent = EventBus.Subscribe <??> (fellowVitalsEventHandler);
+        vitalsUpdateEvent = EventBus.Subscribe <VitalsUpdateEvent > (vitalsEventHandler);
+        fellowVitalsUpdateEvent = EventBus.Subscribe <VitalsUpdateEvent > (fellowVitalsEventHandler);
     }
 
 
     // the function that gets called when the event is fired
-    private void vitalsEventHandler(?? e)
+    private void vitalsEventHandler(VitalsUpdateEvent  e)
     {
         // text
-        eva1_heartRateText.GetComponent<TMPro.TextMeshProUGUI>().text = e.VitalsDetails.heart_rate.ToString("F0");
+        eva1_heartRateText.GetComponent<TMPro.TextMeshProUGUI>().text = e.Data.heart_rate.ToString("F0");
 
         // radial
         // Play around with the arc and angle values for the ringFull object
-        eva1_heartRateText.transform.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc1", (float)((1 - e.VitalsDetails / < max_range >) * 302));
+        eva1_heartRateText.transform.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc1", (float)((1 - e.Data.heart_rate / 200.0) * 302));
 
         // progress bars
         // **Youll have to edit the slider in the inspector to set the max value**
-        int oxyTimeLeftSeconds = e.vitalsDetails.oxy_time_left;
+        int oxyTimeLeftSeconds = e.Data.oxy_time_left;
         int oxyHours = oxyTimeLeftSeconds / 3600;
         int oxyMinutes = oxyTimeLeftSeconds % 3600 / 60;
-        //Debug.Log(oxyTimeLeftSeconds);
+        Debug.Log(oxyTimeLeftSeconds);
         eva1_oxygenTimeLeftText.transform.Find("Value").GetComponent<TextMeshPro>().text = $"{oxyHours} hr {oxyMinutes} m";
-        eva1_oxySlider.GetComponent<Slider>().Value = e.vitalsDetails.oxy_time_left;
+        //eva1_oxySlider.GetComponent<Slider>().Value = e.Data.oxy_time_left;
         // repeat for battery
+        int battTimeLeftSeconds = e.Data.batt_time_left;
+        int battHours = battTimeLeftSeconds / 3600;
+        int battMinutes = oxyTimeLeftSeconds % 3600 / 60;
+        eva1_batteryTimeLeftText.transform.Find("Value").GetComponent<TextMeshPro>().text = $"{battHours} hr {battMinutes} m";
+
     }
 
 
-    private void fellowVitalsEventHandler(?? e)
+    private void fellowVitalsEventHandler(VitalsUpdateEvent  e)
     {
         // repeat for fellow astronaut
         // ...
