@@ -35,10 +35,10 @@ Material:
     - _Iridescence_Edge_Intensity_: 0.05
     - _Iridescence_Enable_: 1
     - _Iridescence_Intensity_: 0.05
-    - _Line_Width_: 0.001
+    - _Line_Width_: 0.0008
     - _Radius_: 0.005
     m_Colors:
     - _Base_Color_: {r: 0.16078432, g: 0.23529412, b: 0.49803913, a: 1}
-    - _Line_Color_: {r: 0.19215687, g: 0.27450982, b: 0.56078434, a: 0.34901962}
+    - _Line_Color_: {r: 0.45490196, g: 0.4690083, b: 0.8930817, a: 0.36862746}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

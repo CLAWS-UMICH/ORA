@@ -38,7 +38,7 @@ public class VitalsUpdate : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        vitalsUpdateEvent = EventBus.Subscribe <VitalsUpdateEvent > (vitalsEventHandler);
+        vitalsUpdateEvent = EventBus.Subscribe <VitalsUpdateEvent> (vitalsEventHandler);
         //fellowVitalsUpdateEvent = EventBus.Subscribe <VitalsUpdateEvent > (fellowVitalsEventHandler);
     }
 
