@@ -12,6 +12,8 @@ public class VitalsUpdate : MonoBehaviour
 
     // EVA1 VITALS
     [SerializeField] private GameObject eva1_heartRateText;
+    [SerializeField] private GameObject eva1_radialProgress1;
+    [SerializeField] private GameObject eva1_radialProgress2;
     [SerializeField] private GameObject eva1_oxygenTimeLeftText;
     //[SerializeField] private GameObject eva1_oxySlider;
     [SerializeField] private GameObject eva1_suitTempText;
@@ -57,9 +59,15 @@ public class VitalsUpdate : MonoBehaviour
 
         // radial
         // Play around with the arc and angle values for the ringFull object
-        //eva1_heartRateText.transform.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc1", (float)((1 - e.Data.heart_rate / 200.0) * 302));
+        float normalizedRate = ((float)e.Data.heart_rate - 40f) / (120f - 40f);
+        float arcAngle1 = 304f - (normalizedRate * 304f);
+        eva1_radialProgress1.GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", arcAngle1);
+        eva1_radialProgress1.GetComponent<SpriteRenderer>().color = Color.green;
 
-        //eva1_heartRateText.transform.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc1", (float)((1 - e.Data.heart_rate / 200.0) * 302));
+        float normalizedTemp = ((float)e.Data.temperature - 60f) / (90f - 60f);
+        float arcAngle2 = 304f - (normalizedTemp * 304f);
+        eva1_radialProgress2.GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", arcAngle2);
+        eva1_radialProgress2.GetComponent<SpriteRenderer>().color = Color.orange;
 
         // progress bars
         // **Youll have to edit the slider in the inspector to set the max value**
