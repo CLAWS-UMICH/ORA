@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RadialFill
+  m_Name: RadialFill 1
   m_Shader: {fileID: 4800000, guid: 0c136c674a00728449d8531d968eaf68, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
