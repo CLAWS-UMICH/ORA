@@ -15,10 +15,10 @@ public class VitalsUpdate : MonoBehaviour
     [SerializeField] private GameObject eva1_radialProgress1;
     [SerializeField] private GameObject eva1_radialProgress2;
     [SerializeField] private GameObject eva1_oxygenTimeLeftText;
-    //[SerializeField] private GameObject eva1_oxySlider;
+    [SerializeField] private GameObject eva1_oxySlider;
     [SerializeField] private GameObject eva1_suitTempText;
     [SerializeField] private GameObject eva1_batteryTimeLeftText;
-    //[SerializeField] private GameObject eva1_batterySlider;
+    [SerializeField] private GameObject eva1_batterySlider;
     [SerializeField] private GameObject eva1_oxyPrimaryText;
     [SerializeField] private GameObject eva1_oxySecondaryText;
 
@@ -76,12 +76,13 @@ public class VitalsUpdate : MonoBehaviour
         int oxyMinutes = oxyTimeLeftSeconds % 3600 / 60;
         Debug.Log(oxyTimeLeftSeconds);
         eva1_oxygenTimeLeftText.GetComponent<TextMeshPro>().text = $"{oxyHours} hr {oxyMinutes} m";
-        //eva1_oxySlider.GetComponent<Slider>().Value = e.Data.oxy_time_left;
+        eva1_oxySlider.GetComponent<Slider>().Value = e.Data.oxy_time_left;
         // repeat for battery
         int battTimeLeftSeconds = e.Data.batt_time_left;
         int battHours = battTimeLeftSeconds / 3600;
         int battMinutes = battTimeLeftSeconds % 3600 / 60;
         eva1_batteryTimeLeftText.GetComponent<TextMeshPro>().text = $"{battHours} hr {battMinutes} m";
+        eva1_batterySlider.GetComponent<Slider>().Value = e.Data.batt_time_left;
 
         //int oxyPrimaryStorage = e.Data.oxy_pri_storage;
         eva1_oxyPrimaryText.GetComponent<TextMeshPro>().text = e.Data.oxy_pri_storage.ToString("F2");
