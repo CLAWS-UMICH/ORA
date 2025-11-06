@@ -35,6 +35,7 @@ public class VitalsUpdate : MonoBehaviour
     [SerializeField] private GameObject eva2_suitTempText;
     private float eva2_batteryTimeLeft;
     [SerializeField] private GameObject eva2_batteryTimeLeftText;
+    [SerializeField] private GameObject eva2_batterySlider;
     private float eva2_oxyPrimary;
     [SerializeField] private GameObject eva2_oxyPrimaryText;
     private float eva2_oxySecondary;
@@ -72,17 +73,26 @@ public class VitalsUpdate : MonoBehaviour
         eva1_heartRateText.GetComponent<TextMeshPro>().text = e.vitalsDetails.heart_rate.ToString("F0");
 
         // radial
-        // eva1_heartRateText.transform.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc1", (float)((1 - e.vitalsDetails.heart_rate / 200) * 302));
+        eva1_suitPressureTotalText.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_total / 200) * 302));
+        eva1_helmetPressureCO2Text.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.helmet_pressure_co2 / 200) * 302));
+        eva1_suitPressureO2Text.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_oxy / 200) * 302));
+        eva1_suitPressureCO2Text.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_co2 / 200) * 302));
+        eva1_suitPressureOtherText.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_other / 200) * 302));
 
         // progress bars
         // **Youll have to edit the slider in the inspector to set the max value**
-        // int oxyTimeLeftSeconds = e.vitalsDetails.oxy_time_left;
-        // int oxyHours = oxyTimeLeftSeconds / 3600;
-        // int oxyMinutes = oxyTimeLeftSeconds % 3600 / 60;
-        // Debug.Log(oxyTimeLeftSeconds);
-        // eva1_oxygenTimeLeftText.transform.Find("Value").GetComponent<TextMeshPro>().text = $"{oxyHours} hr {oxyMinutes} m";
-        // eva1_oxySlider.GetComponent<Slider>().Value = e.vitalsDetails.oxy_time_left;
+        int oxyTimeLeftSeconds = e.vitalsDetails.oxy_time_left;
+        int oxyHours = oxyTimeLeftSeconds / 3600;
+        int oxyMinutes = oxyTimeLeftSeconds % 3600 / 60;
+        Debug.Log(oxyTimeLeftSeconds);
+        eva1_oxygenTimeLeftText.GetComponent<TextMeshPro>().text = $"{oxyHours} hr {oxyMinutes} m";
+        eva1_oxySlider.GetComponent<Slider>().Value = e.vitalsDetails.oxy_time_left;
         // repeat for battery
+        int batteryTimeLeftSeconds = (int)e.vitalsDetails.batt_time_left;
+        int batteryHours = batteryTimeLeftSeconds / 3600;
+        int batteryMinutes = batteryTimeLeftSeconds % 3600 / 60;
+        eva1_batteryTimeLeftText.GetComponent<TextMeshPro>().text = $"{batteryHours} hr {batteryMinutes} m";
+        eva1_batterySlider.GetComponent<Slider>().Value = (float)e.vitalsDetails.batt_time_left;
     }
 
 
@@ -102,18 +112,26 @@ public class VitalsUpdate : MonoBehaviour
         eva2_heartRateText.GetComponent<TextMeshPro>().text = e.vitalsDetails.heart_rate.ToString("F0");
 
         // radial
-        // Play around with the arc and angle values for the ringFull object
-        // eva2_heartRateText.transform.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc1", (float)((1 - e.vitalsDetails.heart_rate / 200) * 302));
+        eva2_suitPressureTotalText.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_total / 200) * 302));
+        eva2_helmetPressureCO2Text.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.helmet_pressure_co2 / 200) * 302));
+        eva2_suitPressureO2Text.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_oxy / 200) * 302));
+        eva2_suitPressureCO2Text.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_co2 / 200) * 302));
+        eva2_suitPressureOtherText.transform.parent.Find("RingFull").GetComponent<SpriteRenderer>().material.SetFloat("_Arc2", (float)((1 - e.vitalsDetails.suit_pressure_other / 200) * 302));
 
         // progress bars
         // **Youll have to edit the slider in the inspector to set the max value**
-        // int oxyTimeLeftSeconds = e.vitalsDetails.oxy_time_left;
-        // int oxyHours = oxyTimeLeftSeconds / 3600;
-        // int oxyMinutes = oxyTimeLeftSeconds % 3600 / 60;
-        // //Debug.Log(oxyTimeLeftSeconds);
-        // eva2_oxygenTimeLeftText.transform.Find("Value").GetComponent<TextMeshPro>().text = $"{oxyHours} hr {oxyMinutes} m";
-        // eva2_oxySlider.GetComponent<Slider>().Value = e.vitalsDetails.oxy_time_left;
+        int oxyTimeLeftSeconds = e.vitalsDetails.oxy_time_left;
+        int oxyHours = oxyTimeLeftSeconds / 3600;
+        int oxyMinutes = oxyTimeLeftSeconds % 3600 / 60;
+        Debug.Log(oxyTimeLeftSeconds);
+        eva2_oxygenTimeLeftText.GetComponent<TextMeshPro>().text = $"{oxyHours} hr {oxyMinutes} m";
+        eva2_oxySlider.GetComponent<Slider>().Value = e.vitalsDetails.oxy_time_left;
         // repeat for battery
+        int batteryTimeLeftSeconds = (int)e.vitalsDetails.batt_time_left;
+        int batteryHours = batteryTimeLeftSeconds / 3600;
+        int batteryMinutes = batteryTimeLeftSeconds % 3600 / 60;
+        eva2_batteryTimeLeftText.GetComponent<TextMeshPro>().text = $"{batteryHours} hr {batteryMinutes} m";
+        eva2_batterySlider.GetComponent<Slider>().Value = (float)e.vitalsDetails.batt_time_left;
     }
 
 }
